@@ -1,0 +1,13 @@
+<div class="post {{featured_class}}">
+  <h3>{{header}}</h3>
+  <p>published {{time_ago}} ago</p>
+  <img src="{{image_source}}">
+  <p>{{description}}</p>
+  <p>{{number_of_comments}} comments</p>
+  <p>Related Stories</p>
+  <ul>
+    {{#related_posts}}
+      <li>{{title}} {{url}} - {{source}}</li>
+    {{/related_posts}}
+  </ul>
+</div>
